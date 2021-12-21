@@ -10,3 +10,12 @@
 # 1234
 
 # TODO: your code here
+n = int(input ("Введите число n: "))
+i = 1
+while i <= n:
+    k = 1
+    while k <= i:
+        print(k, end='')
+        k += 1
+    print("\n")
+    i +=1
