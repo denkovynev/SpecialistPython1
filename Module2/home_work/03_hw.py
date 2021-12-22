@@ -31,3 +31,9 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+amount = 20
+price = int(input("Введите стоимость единицы товара: "))
+i = 1
+while i <= amount:
+    print(i, i*price, "Rub")
+    i += 1
